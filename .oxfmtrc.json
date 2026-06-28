@@ -1,0 +1,57 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  // "semi": true,
+  // "singleQuote": false,
+
+  "printWidth": 100,
+  "tabWidth": 2,
+  "useTabs": false,
+
+  "semi": true,
+  "singleQuote": false,
+  "jsxSingleQuote": false,
+  "quoteProps": "as-needed",
+
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "arrowParens": "always",
+
+  "endOfLine": "lf",
+  "insertFinalNewline": true,
+
+  "singleAttributePerLine": true,
+  "vueIndentScriptAndStyle": false,
+  "htmlWhitespaceSensitivity": "css",
+
+  "embeddedLanguageFormatting": "auto",
+
+  "sortPackageJson": true,
+
+  "sortImports": {
+    "internalPattern": ["@/", "~/"],
+    "groups": [
+      "builtin",
+      "external",
+      ["internal", "subpath"],
+      ["parent", "sibling", "index"],
+      "style",
+      "unknown"
+    ],
+    "newlinesBetween": true,
+    "ignoreCase": true,
+    "order": "asc",
+    "sortSideEffects": false
+  },
+
+  "ignorePatterns": [
+    "dist/**",
+    "build/**",
+    "coverage/**",
+    "node_modules/**",
+    ".nuxt/**",
+    ".output/**",
+    ".vite/**",
+    "*.min.*"
+  ]
+}
