@@ -7,6 +7,7 @@ import vueDevTools from "vite-plugin-vue-devtools";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/vue3-pinia-test/",
   server: {
     host: "0.0.0.0",
   },

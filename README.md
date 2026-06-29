@@ -2,6 +2,8 @@
 
 Neliela uzdevumu pārvaldības lietotne ar `Vue 3`, `Composition API`, `Pinia` un `TypeScript`.
 
+### demo: https://simkuns.dev/vue3-pinia-test/
+
 ## Palaišana
 
 ```bash
